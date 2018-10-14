@@ -1,0 +1,7 @@
+seq, jnc, djnc - are all that is needed to represent any grammar
+  - assuming no buffers possible
+some grammars are infinite sequences only terminated by EOF
+  - a*
+need 2 types of parsers
+  - overlapping: \next -> parser
+  - non-overlapping
